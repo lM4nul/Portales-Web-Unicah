@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Prestamos juveniles</h1>
+        <h2>Datos personales</h2>
+        <form action="TFormulario.html" method="get">
+            <label for="txtNombre">Nombre estudiante</label>
+            <input type="text" name="txtNombre" id="txtNombre" placeholder="Primer y segundo nombre" title="Nombre del estudiante a registrarse"/>
+            &nbsp; <label for="txtNombre">Apellido estudiante</label>
+            <input type="text" name="txtNombre" id="txtApellido" placeholder="Apellido" title="Apellido del estudiante a registrarse"/>
+            <br><br>
+            <label for="txtEmail">Correo electrónico</label>
+            <input type="email" name="txtEmail" id="txtEmail" placeholder="example@example.com" title="Correo electronico del que se va a registrar" />
+            <br><br>
+            <label for="txtTelefono">Número de telefono</label>
+            <input type="text" name="txtTelefono" id="txtTelefono" placeholder="1234-567" title="Numero de telefono">
+            <br><br>
+            <label for="txtDireccionA">Direccion Actual</label>
+            <input type="text" name="txtDireccionA" id="txtDireccionA" placeholder="Col. xxxxx" title="Direccion Actual al momento de registrarse el estudiante"/>
+            <br><br>
+            <label for="txtCiudad">Ciudad</label>
+            <input type="text" name="txtCiudad" id="txtCiudad" placeholder="Teguscigalpa" title="Ciuddad en que reside el estudiante"/>
+            <br><br>
+            <label for="CmbEstado">Estado</label>
+            <select name="CmbEstado" id="CmbEstado" >
+                <option value="FMO">Francisco Morazán</option>
+                <option value="ATL">Atlántida</option>
+                <option value="CHO">Choluteca</option>
+                <option value="COL">Colón</option>
+                <option value="COM">Comayagua</option>
+                <option value="COP">Copán</option>
+                <option value="COR">Cortés</option>
+                <option value="EPA">El Paraíso</option>
+                <option value="GAD">Gracias a Dios</option>
+                <option value="INT">Intibucá</option>
+                <option value="IBY">Islas de la Bahía</option>
+                <option value="LPZ">La Paz</option>
+                <option value="LEMP">Lempira</option>
+                <option value="OCO">Ocotepeque</option>
+                <option value="OLA">Olancho</option>
+                <option value="SBA">Santa Bárbara</option>
+                <option value="VAL">Valle</option>
+                <option value="YOR">Yoro</option>
+            </select>
+            <br><br>
+            <label>Educacion Actual</label><br>
+            <input type="radio" name="rdEducAct" id="EducPrepa" value="Preparatoria"/>
+            &nbsp; <label for="EducPrepa">Preparatoria</label>
+            &nbsp;
+            <input type="radio" name="rdEducAct" id="EducLic" value="Licenciatura"/>
+            &nbsp; <label for="EducLic">Licenciatura</label>
+            &nbsp;
+            <input type="radio" name="rdEducAct" id="EducMaes" value="Maestria"/>
+            &nbsp; <label for="EducMaes">Maestria</label>
+            &nbsp;
+            <input type="radio" name="rdEducAct" id="EducDoc" value="Doctorado"/>
+            &nbsp; <label for="EducDoc">Doctorado</label>
+            <br><br>
+            <label>Programa de estudio</label><br>
+            <input type="radio" name="rdPrEs" id="CDC" value="Ciencias de la Computación"/>
+            &nbsp; <label for="CDC">Ciencias de la Computación</label>
+            &nbsp;
+            <input type="radio" name="rdPrEs" id="Ing" value="Ingeniería"/>
+            &nbsp; <label for="Ing">Ingeniería</label>
+            &nbsp;
+            <input type="radio" name="rdPrEs" id="Eco" value="Economía"/>
+            &nbsp; <label for="Eco">Economía</label>
+            &nbsp;
+            <input type="radio" name="rdPrEs" id="Art" value="Artes"/>
+            &nbsp; <label for="Art">Artes</label>
+            &nbsp;
+            <input type="radio" name="rdPrEs" id="Otr" value="Otros"/>
+            &nbsp; <label for="Otr">Otros</label>
+            <br><br>
+            <label for="txtMontP">Monto del Prestamo</label>
+            <input type="text" name="txtMontP" id="txtMontP" placeholder="1234" title="Monto de prestamos"/>
+            <br><br>
+            <label for="txtRazonPres">Razón para solicitar el préstamo</label><br>
+            <textarea name="txtRazonPres" id="txtRazonPres" placeholder="La razon del prestamo es por....."></textarea>
+            <br><br>
+            <button type="submit" value="save" name="btnEnviar">Enviar solucitud de prestamo</button>
+        </form>
+    </body>
+</html>
