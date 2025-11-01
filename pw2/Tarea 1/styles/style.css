@@ -164,6 +164,7 @@ main .hero-panel h2 {
     margin-bottom: 0.5rem; /* trbl  top right bottom left  (top bottom) (right left) (trbl) */
     background-color: #630;
     color:#fff;
+    text-align: center;
 }
 
 .card-body .price-tag{
@@ -271,4 +272,19 @@ main .hero-panel h2 {
     .grid .row .col-xl-11 { flex-basis: calc(100% / 12 * 11);}
     .grid .row .col-xl-12 { flex-basis: 100%;}
 
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section.nombre {
+    font-size: 1rem;
+    padding:0.5rem;
+    margin-left: 30px;
 }
