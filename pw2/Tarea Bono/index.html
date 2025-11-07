@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+    <header>
+        <section class="branding">
+            <img src="https://picsum.photos/128/64" alt="Logo" />
+            <h1>Historias de un Café</h1>
+        </section>
+        <section class="searchform">
+            <form action="#searchUri" method="get">
+                <label for="busqueda">Buscar</label>
+                <input type="text" placeholder="Buscar" name="busqueda" id="busqueda">
+                <button type="submit" name="buscar">Buscar</button>
+            </form>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Gourmet</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-panel">
+            <picture>
+                <source
+                    srcset="https://picsum.photos/id/140/1300/780"
+                    media="(min-width:1025px)" />
+                <source
+                    srcset="https://picsum.photos/id/140/1025/640"
+                    media="(min-width:720px)" />
+                <img
+                    src="https://picsum.photos/id/140/480/480"
+                    class="image-full"
+                    alt="heroPanel" />
+            </picture>
+            <div class="action-panel q4">
+                <h2>Some Action to do</h2>
+                <p>Some cool actions to do when you click on the following button</p>
+                <button>Click Me</button>
+            </div>
+        </section>
+        <section class="container container-l">
+            <div class="card-holder grid">
+                <div class="row">
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-m-6 col-l-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                            <img src="https://picsum.photos/id/243/300/200" alt="Product Picture 1" />
+                            </div>
+                            <div class="card-body">
+                                <strong>Nombre Producto 1</strong>
+                                <div class="price-tag">
+                                    <span>Precio</span>
+                                    <span>$100.00</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid">
+            <div class="row order-inverse-m">
+                <div class="container col-12 col-m-6 right-panel">
+                    <h2>Contactanos</h2>
+                    <form action="" method="get" class="grid">
+                        <div class="row items-center margin-b">
+                            <label class="col-12 col-m-4" for="txtNombre">Nombre Completo: </label>
+                            <input class="col-12 col-m-8" type="text" id="txtNombre" name="nombre" placeholder="Nombre Completo" required/>
+                        </div>
+                        <div class="row items-center margin-b">
+                            <label class="col-12 col-m-4" for="txtCorreo">Correo: </label>
+                            <input class="col-12 col-m-8" type="email" id="txtCorreo" name="correo" placeholder="Correo Electrónico" required/>
+                        </div>
+                        <div class="row items-center margin-b">
+                            <label class="col-12 col-m-4" for="txtTelefono">Telefono: </label>
+                            <input class="col-12 col-m-8" type="text" id="txtTelefono" name="telefono" placeholder="Teléfono" required/>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 row justify-end">
+                                <button class="btnForm" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-m-6 left-panel">
+                    <picture>
+                        <source srcset="https://picsum.photos/id/288/640/640" media="(min-width:720px)" />
+                        <img src="https://picsum.photos/id/288/480/480" alt="Half panel Image"/>
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+
+    <aside class="loader-background">
+        <div class="loader">
+            <div class="nucleus"></div>
+            <div class="orbit">
+                <div class="electron"></div>
+            </div>
+            <div class="orbit">
+                <div class="electron"></div>
+            </div>
+            <div class="orbit">
+                <div class="electron"></div>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
